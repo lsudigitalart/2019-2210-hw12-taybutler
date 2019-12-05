@@ -17,56 +17,56 @@ var barks;
 
 
 function preload() {
-    bchead = loadImage('/assets/bchead.png');
-    bcbody = loadImage('/assets/bcbody.png');
-    bctail = loadImage('/assets/bctail.png');
+    bchead = loadImage('assets/bchead.png');
+    bcbody = loadImage('assets/bcbody.png');
+    bctail = loadImage('assets/bctail.png');
 
-    bullhead = loadImage('/assets/bullhead.png');
-    bullbody = loadImage('/assets/bullbody.png');
-    bulltail = loadImage('/assets/bulltail.png');
+    bullhead = loadImage('assets/bullhead.png');
+    bullbody = loadImage('assets/bullbody.png');
+    bulltail = loadImage('assets/bulltail.png');
 
-    germanhead = loadImage('/assets/germanhead.png');
-    germanbody = loadImage('/assets/germanbody.png');
-    germantail = loadImage('/assets/germantail.png');
+    germanhead = loadImage('assets/germanhead.png');
+    germanbody = loadImage('assets/germanbody.png');
+    germantail = loadImage('assets/germantail.png');
 
-    goldenhead = loadImage('/assets/goldenhead.png');
-    goldenbody = loadImage('/assets/goldenbody.png');
-    goldentail = loadImage('/assets/goldentail.png');
+    goldenhead = loadImage('assets/goldenhead.png');
+    goldenbody = loadImage('assets/goldenbody.png');
+    goldentail = loadImage('assets/goldentail.png');
 
-    pughead = loadImage('/assets/pughead.png');
-    pugbody = loadImage('/assets/pugbody.png');
-    pugtail = loadImage('/assets/pugtail.png');
+    pughead = loadImage('assets/pughead.png');
+    pugbody = loadImage('assets/pugbody.png');
+    pugtail = loadImage('assets/pugtail.png');
 
     //names
-    bordercollie = loadImage('/assets/bordercollie.png');
-    bordershepherd = loadImage('/assets/bordershepherd.png');
-    bullcollie = loadImage('/assets/bullcollie.png');
-    borderRetriever = loadImage('/assets/borderRetriever.png');
-    pollug = loadImage('/assets/pollug.png');
-    bulldog = loadImage('/assets/bulldog.png');
-    bullshepherd = loadImage('/assets/bullshepherd.png');
-    bullretriever = loadImage('/assets/bullretriever.png');
-    bullpug = loadImage('/assets/bullpug.png');
-    germanshepherd = loadImage('/assets/germanshepherd.png');
-    germancollie = loadImage('/assets/germancollie.png');
-    germanretriever = loadImage('/assets/germanretriever.png');
-    shug = loadImage('/assets/shug.png');
-    goldenretriever = loadImage('/assets/goldenretriever.png');
-    goldenbulldog = loadImage('/assets/goldenbulldog.png');
-    gug = loadImage('/assets/gug.png');
-    pug = loadImage('/assets/pug.png');
-    bug = loadImage('/assets/bug.png');
-    goldenpug = loadImage('/assets/goldenpug.png');
+    bordercollie = loadImage('assets/bordercollie.png');
+    bordershepherd = loadImage('assets/bordershepherd.png');
+    bullcollie = loadImage('assets/bullcollie.png');
+    borderRetriever = loadImage('assets/borderRetriever.png');
+    pollug = loadImage('assets/pollug.png');
+    bulldog = loadImage('assets/bulldog.png');
+    bullshepherd = loadImage('assets/bullshepherd.png');
+    bullretriever = loadImage('assets/bullretriever.png');
+    bullpug = loadImage('assets/bullpug.png');
+    germanshepherd = loadImage('assets/germanshepherd.png');
+    germancollie = loadImage('assets/germancollie.png');
+    germanretriever = loadImage('assets/germanretriever.png');
+    shug = loadImage('assets/shug.png');
+    goldenretriever = loadImage('assets/goldenretriever.png');
+    goldenbulldog = loadImage('assets/goldenbulldog.png');
+    gug = loadImage('assets/gug.png');
+    pug = loadImage('assets/pug.png');
+    bug = loadImage('assets/bug.png');
+    goldenpug = loadImage('assets/goldenpug.png');
     
-    clicktomix = loadImage('/assets/clicktomix.png');
+    clicktomix = loadImage('assets/clicktomix.png');
 
-    mixButton = loadImage('/assets/mixbutton.png')
+    mixButton = loadImage('assets/mixbutton.png')
 
-    bgimg = loadImage('/assets/bg.png');
+    bgimg = loadImage('assets/bg.png');
 
-    song1 = loadSound("/assets/woof.mp3");
-    song2 = loadSound("/assets/woof2.wav");
-    song3 = loadSound("/assets/woof3.wav");
+    song1 = loadSound("assets/woof.mp3");
+    song2 = loadSound("assets/woof2.wav");
+    song3 = loadSound("assets/woof3.wav");
 }
 
 function setup() {
@@ -98,7 +98,7 @@ barks = random(0, 3);
   }
 
   function draw() {
-    button = createImg('/assets/mixButton.png');
+    button = createImg('assets/mixButton.png');
     button.position(450, 650);
     button.mousePressed(creature);
   }
