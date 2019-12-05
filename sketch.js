@@ -17,56 +17,56 @@ var barks;
 
 
 function preload() {
-    bchead = loadImage('bchead.png');
-    bcbody = loadImage('bcbody.png');
-    bctail = loadImage('bctail.png');
+    bchead = loadImage('assets/bchead.png');
+    bcbody = loadImage('assets/bcbody.png');
+    bctail = loadImage('assets/bctail.png');
 
-    bullhead = loadImage('bullhead.png');
-    bullbody = loadImage('bullbody.png');
-    bulltail = loadImage('bulltail.png');
+    bullhead = loadImage('assets/bullhead.png');
+    bullbody = loadImage('assets/bullbody.png');
+    bulltail = loadImage('assets/bulltail.png');
 
-    germanhead = loadImage('germanhead.png');
-    germanbody = loadImage('germanbody.png');
-    germantail = loadImage('germantail.png');
+    germanhead = loadImage('assets/germanhead.png');
+    germanbody = loadImage('assets/germanbody.png');
+    germantail = loadImage('assets/germantail.png');
 
-    goldenhead = loadImage('goldenhead.png');
-    goldenbody = loadImage('goldenbody.png');
-    goldentail = loadImage('goldentail.png');
+    goldenhead = loadImage('assets/goldenhead.png');
+    goldenbody = loadImage('assets/goldenbody.png');
+    goldentail = loadImage('assets/goldentail.png');
 
-    pughead = loadImage('pughead.png');
-    pugbody = loadImage('pugbody.png');
-    pugtail = loadImage('pugtail.png');
+    pughead = loadImage('assets/pughead.png');
+    pugbody = loadImage('assets/pugbody.png');
+    pugtail = loadImage('assets/pugtail.png');
 
     //names
-    bordercollie = loadImage('bordercollie.png');
-    bordershepherd = loadImage('bordershepherd.png');
-    bullcollie = loadImage('bullcollie.png');
-    borderRetriever = loadImage('borderRetriever.png');
-    pollug = loadImage('pollug.png');
-    bulldog = loadImage('bulldog.png');
-    bullshepherd = loadImage('bullshepherd.png');
-    bullretriever = loadImage('bullretriever.png');
-    bullpug = loadImage('bullpug.png');
-    germanshepherd = loadImage('germanshepherd.png');
-    germancollie = loadImage('germancollie.png');
-    germanretriever = loadImage('germanretriever.png');
-    shug = loadImage('shug.png');
-    goldenretriever = loadImage('goldenretriever.png');
-    goldenbulldog = loadImage('goldenbulldog.png');
-    gug = loadImage('gug.png');
-    pug = loadImage('pug.png');
-    bug = loadImage('bug.png');
-    goldenpug = loadImage('goldenpug.png');
+    bordercollie = loadImage('assets/bordercollie.png');
+    bordershepherd = loadImage('assets/bordershepherd.png');
+    bullcollie = loadImage('assets/bullcollie.png');
+    borderRetriever = loadImage('assets/borderRetriever.png');
+    pollug = loadImage('assets/pollug.png');
+    bulldog = loadImage('assets/bulldog.png');
+    bullshepherd = loadImage('assets/bullshepherd.png');
+    bullretriever = loadImage('assets/bullretriever.png');
+    bullpug = loadImage('assets/bullpug.png');
+    germanshepherd = loadImage('assets/germanshepherd.png');
+    germancollie = loadImage('assets/germancollie.png');
+    germanretriever = loadImage('assets/germanretriever.png');
+    shug = loadImage('assets/shug.png');
+    goldenretriever = loadImage('assets/goldenretriever.png');
+    goldenbulldog = loadImage('assets/goldenbulldog.png');
+    gug = loadImage('assets/gug.png');
+    pug = loadImage('assets/pug.png');
+    bug = loadImage('assets/bug.png');
+    goldenpug = loadImage('assets/goldenpug.png');
     
-    clicktomix = loadImage('clicktomix.png');
+    clicktomix = loadImage('assets/clicktomix.png');
 
-    mixButton = loadImage('mixbutton.png')
+    mixButton = loadImage('assets/mixbutton.png')
 
-    bgimg = loadImage('bg.png');
+    bgimg = loadImage('assets/bg.png');
 
-    song1 = loadSound("woof.mp3");
-    song2 = loadSound("woof2.wav");
-    song3 = loadSound("woof3.wav");
+    song1 = loadSound("assets/woof.mp3");
+    song2 = loadSound("assets/woof2.wav");
+    song3 = loadSound("assets/woof3.wav");
 }
 
 function setup() {
@@ -98,7 +98,7 @@ barks = random(0, 3);
   }
 
   function draw() {
-    button = createImg('mixButton.png');
+    button = createImg('assets/mixButton.png');
     button.position(450, 650);
     button.mousePressed(creature);
   }
