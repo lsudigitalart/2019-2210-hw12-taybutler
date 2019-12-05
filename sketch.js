@@ -98,7 +98,7 @@ barks = random(0, 3);
   }
 
   function draw() {
-    button = createImg('assets/mixButton.png');
+    button = createImg('assets/mixbutton.png');
     button.position(450, 650);
     button.mousePressed(creature);
   }
